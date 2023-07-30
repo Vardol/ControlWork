@@ -1,0 +1,17 @@
+cat > pack.txt
+Horses, Camels, Donkeys
+
+cat > domestic.txt
+Dogs, Cats, Hamsters
+
+cat pack.txt domestic.txt > animals.txt
+Horses, Camels, Donkeys
+Dogs, Cats, Hamsters
+
+mv animals.txt humanfriends.txt
+mkdir folder
+mv humanfriends.txt folder/
+
+curl -OL https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
+dpkg -i mysql-apt-config_0.8.26-1_all.deb
+dpkg -r mysql-apt-config_0.8.26-1_all
